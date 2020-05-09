@@ -3,9 +3,10 @@ let user_input = document.getElementById('user_input');
 let chat_logs = document.getElementById('chatlogs');
 
 // Load an individual file.
-bot.loadFile("brain/begin.rive", loading_brain_done, loading_brain_error);
-bot.loadFile("brain/test.rive", loading_brain_done, loading_brain_error);
-bot.loadFile("brain/star.rive", loading_brain_done, loading_brain_error);
+bot.loadFile("brain.rive", loading_brain_done, loading_brain_error);
+bot.loadFile("begin.rive", loading_brain_done, loading_brain_error);
+bot.loadFile("test.rive", loading_brain_done, loading_brain_error);
+bot.loadFile("star.rive", loading_brain_done, loading_brain_error);
 
 function loading_brain_done () {
     console.log('loading Done');
